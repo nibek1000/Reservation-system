@@ -9,7 +9,7 @@ Script still does not have option to limit choosing dates between hours frame. I
 
 ## Install
 
-Just upload `htdocs` on your server and import `test.sql` to your phpmyadmin
+Just upload `htdocs` on your server and import `reservation.sql` to your phpmyadmin
 
 
 ## Features
