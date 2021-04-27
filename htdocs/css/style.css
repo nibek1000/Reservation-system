@@ -1,0 +1,139 @@
+.button {
+    background-color: #00ccff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+}
+
+.Tablebutton {
+    background-color: #750000;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+}
+
+.Loginbutton {
+background-color: #00e444;
+border: none;
+color: rgb(0, 0, 0);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+width: 500px;
+}
+
+.loginForm{
+    background-color: gray;
+    position: absolute;
+    border: 3px solid #0a0a0a;
+    padding: 20px 20px;
+    margin-left: 30%;
+    margin-right: 34%;
+    color: white;
+    font-size: 23px;
+}
+
+.reservedForm{
+    background-color: gray;
+    position: absolute;
+    border: 3px solid #0a0a0a;
+    padding: 30px 30px;
+    margin-left: 30%;
+    margin-right: 34%;
+    color: white;
+    font-size: 23px;
+    
+}
+
+.inputLogin{
+    box-sizing: border-box;
+    padding: 12px 20px;
+    width: 500px;
+}
+
+.loginorregister{
+    box-sizing: border-box;
+    padding: 12px 20px;
+    width: 500px;
+}
+
+.loginDiv {
+    background-color: black;
+     
+    justify-content: right;
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.menuDiv {
+    background-color: rgb(39, 39, 39);
+     
+    justify-content: right;
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.menuButton {
+    background-color: #5e7bff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.menuButtonDis {
+background-color: #4e4e4e;
+border: none;
+color: rgb(139, 139, 139);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.logoutSpan{
+    font-size: 35px;
+}
+
+tr.st{
+    background-color: rgb(185, 185, 185);
+}
+
+tr.nd{
+    background-color: rgb(255, 255, 255);
+}
+
+table{
+    width:100%;
+    table-layout: fixed;
+  }
+
+.topTable{
+    background-color: #35ff68;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.smallText{
+    font-size: 12px;
+}

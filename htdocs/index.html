@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" type="image/png" href="assets/logo.png"/>
+        <title>Reservation - index</title>
+    </head>
+    <body>
+
+    
+    <div class="loginForm">
+        <a href="php/login.php" class="button">Login</a>
+        <form action='php/send.php' target="_blank" method='post'>
+            <h1>Create reservation</h1>
+            <label>
+                Your name: <input type='text' name='name' size='40' maxlength="64" class = "inputLogin">
+            </label>
+            <br>
+            <label>
+                Your email: <input type='text' name='mail' size='35' maxlength="52" class = "inputLogin">
+            </label>
+            <br>
+            <label>
+                Your phone number: <input type='text' name='phone' maxlength="9" class = "inputLogin">
+            </label>
+            <br>
+            <label>
+                Select date and time of your reservation: <input type='datetime-local' name='date' maxlength="2" class="inputLogin" step="3600"><br>
+                <a class="smallText">*your appointment will be 1h long</a>
+            </label>
+            <br>
+            <label>
+                Describe shortly your reservetion purpose: <input type='text' name='purpose' maxlength="32" class = "inputLogin">
+            </label>
+            <br><br>
+            <input value="Make reservation" type="submit" name="gotowe" class="Loginbutton"><br>
+        </form>
+        </div>
+    </body>
+</html>
